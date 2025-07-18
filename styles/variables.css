@@ -5,7 +5,7 @@
 
 :root {
   --bg-image: url("../images/cover-image-light.png");
-  --main-font-family: IBM Plex mono;
+  --main-font-family: IBM Plex mono, sans-serif;
   --font-size: 18px;
   --font-weight: 400;
   --font-weight-bold: 700;
