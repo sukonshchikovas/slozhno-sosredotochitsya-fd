@@ -43,4 +43,9 @@
     --accent-text-color: #000028;
     --text-color: #f1b2ce;
   }
+
+  .decorated-element,
+  .decorated-element::after {
+    visibility: visible;
+  }
 }
