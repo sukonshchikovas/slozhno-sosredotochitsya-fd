@@ -18,13 +18,13 @@
   text-shadow: 2px 1px 0 var(--accent-color);
 }
 
-.section__content-link:hover {
-  border-block-end: 1px solid var(--text-color);
-}
-
-.section__content-link:focus {
+.interactive__element:focus {
   border: none;
   outline: none;
+}
+
+.section__content-link:hover {
+  border-block-end: 1px solid var(--text-color);
 }
 
 .section__content-link:focus-visible {
@@ -85,7 +85,6 @@
 }
 
 .header__theme-menu-button:focus-visible {
-  outline: none;
   border-block-end: 1px solid var(--border-color);
 }
 
